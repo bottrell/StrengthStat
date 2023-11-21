@@ -1,16 +1,9 @@
-# strength_stat
+# StrengthStat 
 
-A new Flutter project.
+This is a passion project of mine that I am building for my own use. I have been personally dissapointed with the quality and feature set of most workout tracker apps, so I have decided to build my own. This project has gone through many iterations including Next.js, native iOS, and React Native. Ultimately I decided on Flutter because of it's tight integration with firestore (my backend of choice), and because I've spent the most time in the ecosystem (the tooling is great!).
 
-## Getting Started
+The app features the core featureset of workout tracking and routine building, as well as the extended functionality of quantifying and displaying your workout data in context of other users with the ability to sync data from the cloud. 
 
-This project is a starting point for a Flutter application.
+The ultimate goal is to release to the app store and google play store, but I will likely do a prolonged pilot with a core group of colleagues who are interested in the project.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Thanks for reading!
