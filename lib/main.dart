@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:strength_stat/widgets/test_widget.dart';
+import 'package:strength_stat/screens/test_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -48,21 +48,36 @@ class _NavigationExampleState extends State<NavBar> {
         indicatorColor: Colors.amber,
         selectedIndex: currentPageIndex,
         destinations: const <Widget>[
+          // Profile
           NavigationDestination(
-            selectedIcon: Icon(Icons.home),
-            icon: Icon(Icons.home_outlined),
+            selectedIcon: Icon(Icons.person),
+            icon: Icon(Icons.person_outline),
             label: 'Home',
           ),
+          // Exercises
           NavigationDestination(
             icon: Badge(child: Icon(Icons.notifications_sharp)),
             label: 'Notifications',
           ),
+          // Workout
           NavigationDestination(
             icon: Badge(
               label: Text('2'),
               child: Icon(Icons.messenger_sharp),
             ),
             label: 'Messages',
+          ),
+          // Measure
+          NavigationDestination(
+            selectedIcon: Icon(Icons.home),
+            icon: Icon(Icons.home_outlined),
+            label: 'Home',
+          ),
+          // Stats 
+          NavigationDestination(
+            selectedIcon: Icon(Icons.home),
+            icon: Icon(Icons.home_outlined),
+            label: 'Home',
           ),
         ],
       ),
