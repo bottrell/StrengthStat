@@ -5,6 +5,6 @@ const MeasureScreen({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context){
-    return Container();
+    return Center(child: Text("measure"));
   }
 }
