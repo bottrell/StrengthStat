@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "787600606699",
+    "project_id": "strengthstat-a63d4",
+    "storage_bucket": "strengthstat-a63d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787600606699:android:2985bc5066637a5e9ec5ae",
+        "android_client_info": {
+          "package_name": "com.example.strength_stat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7j6aJKnMCcGQ1U8W9Hnb2F4qw-WMtx_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
